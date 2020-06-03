@@ -1,0 +1,379 @@
+﻿<html><head>
+<meta charset="utf-8">
+<title>加入我们 | 1980安全团队</title>
+<meta name="keywords" content="1980安全团队,H-acker.Net,信息安全团队,渗透测试,kali Linux" />
+<meta name="description" content="1980安全团队致力于网络安全、应用安全与WEB安全领域的研究探索，帮助广大站长、厂商、企事业单位、政务机关等用户应对变化多端的互联网安全威胁。" />
+<link rel="icon" href="./favicon.ico" type="image/x-icon" />
+</head>
+ <div style="text-align:center">
+<span style="font: 20px tahoma;size:40px;color:black;text-shadow: 0px 0px 50px;"><strong> <font color="#8600FF"><font face="Comic Sans MS">     
+<span style="font: 20px tahoma;size:40px;color:black;text-shadow: 0px 0px 50px;"><strong> <font color="#00CACA"><font face="Comic Sans MS">    
+<script>
+farbbibliothek = new Array(); 
+farbbibliothek[0] = new Array("#FF0000","#FF1100","#FF2200","#FF3300","#FF4400","#FF5500","#FF6600","#FF7700","#FF8800","#FF9900","#FFaa00","#FFbb00","#FFcc00","#FFdd00","#FFee00","#FFff00","#FFee00","#FFdd00","#FFcc00","#FFbb00","#FFaa00","#FF9900","#FF8800","#FF7700","#FF6600","#FF5500","#FF4400","#FF3300","#FF2200","#FF1100"); 
+farbbibliothek[1] = new Array("#00FF00","#000000","#00FF00","#00FF00"); 
+farbbibliothek[2] = new Array("#00FF00","#FF0000","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00"); 
+farbbibliothek[3] = new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"); 
+farbbibliothek[4] = new Array("#FF0000","#EE0000","#DD0000","#CC0000","#BB0000","#AA0000","#990000","#880000","#770000","#660000","#550000","#440000","#330000","#220000","#110000","#000000","#110000","#220000","#330000","#440000","#550000","#660000","#770000","#880000","#990000","#AA0000","#BB0000","#CC0000","#DD0000","#EE0000"); 
+farbbibliothek[5] = new Array("#000000","#000000","#000000","#FFFFFF","#FFFFFF","#FFFFFF"); 
+farbbibliothek[6] = new Array("#0000FF","#FFFF00"); 
+farben = farbbibliothek[4];
+function farbschrift() 
+{ 
+for(var i=0 ; i<Buchstabe.length; i++) 
+{ 
+document.all["a"+i].style.color=farben[i]; 
+} 
+farbverlauf(); 
+} 
+function string2array(text) 
+{ 
+Buchstabe = new Array(); 
+while(farben.length<text.length) 
+{ 
+farben = farben.concat(farben); 
+} 
+k=0; 
+while(k<=text.length) 
+{ 
+Buchstabe[k] = text.charAt(k); 
+k++; 
+} 
+} 
+function divserzeugen() 
+{ 
+for(var i=0 ; i<Buchstabe.length; i++) 
+{ 
+document.write("<span id='a"+i+"' class='a"+i+"'>"+Buchstabe[i] + "</span>"); 
+} 
+farbschrift(); 
+} 
+var a=1; 
+function farbverlauf() 
+{ 
+for(var i=0 ; i<farben.length; i++) 
+{ 
+farben[i-1]=farben[i]; 
+} 
+farben[farben.length-1]=farben[-1]; 
+
+setTimeout("farbschrift()",30); 
+} 
+// 
+var farbsatz=1; 
+function farbtauscher() 
+{ 
+farben = farbbibliothek[farbsatz]; 
+while(farben.length<text.length) 
+{ 
+farben = farben.concat(farben); 
+} 
+farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001)); 
+} 
+setInterval("farbtauscher()",5000); 
+text= "  "; //h 
+string2array(text)
+
+
+divserzeugen(); 
+//document.write(text); 
+</script><span id="a0" class="a0" style="color: rgb(255, 0, 0);"> </span><span id="a1" class="a1" style="color: rgb(238, 0, 0);"> </span><span id="a2" class="a2" style="color: rgb(221, 0, 0);"></span><span id="a0" class="a0" style="color: rgb(255, 0, 0);"> </span><span id="a1" class="a1" style="color: rgb(238, 0, 0);"> </span><span id="a2" class="a2" style="color: rgb(221, 0, 0);"></span><span id="a0" class="a0" style="color: rgb(255, 17, 0);"> </span>
+<!--
+var message="BY：T0ex4";
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+}
+}
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+document.oncontextmenu=new Function("alert(message);return false")
+// -->
+ </p>
+</center>
+   
+    <p align="center">&nbsp;</p>
+<div align="center">
+		<pre><font color="#FF0000"><font size="1">HHHHHHHHH     HHHHHHHHH                                        <span class="style6">kkkkkkkk</span>                                        <span class="style6">  d::::::d</span>
+H:::::::H     H:::::::H                                       <span class="style6"> k::::::k  </span>                                        <span class="style6">d::::::d</span>
+H:::::::H     H:::::::H                                       <span class="style6"> k::::::k   </span>                                     <span class="style6">  d::::::d</span>
+ HH::::::H     H::::::HH                                        <span class="style6">k::::::k </span>                                         <span class="style6"> d:::::d </span>
+  H:::::H     H:::::H     <span class="style6">aaaaaaaaaaaaa</span>       cccccccccccccccc  <span class="style6">k:::::k    kkkkkkk</span>  eeeeeeeeeeee        <span class="style6"> ddddddddd:::::d </span>
+  H:::::H     H:::::H     <span class="style6">a::::::::::::a</span>    cc:::::::::::::::c <span class="style6"> k:::::k   k:::::k</span> ee::::::::::::ee     <span class="style6">dd::::::::::::::d </span></font></font><font size="1"><font color="#FFFFFF">
+  H::::::HHHHH::::::H     <span class="style6">aaaaaaaaa:::::a</span>  c:</font><font color="#FFFF00">::::::::::::::::c </font><span class="style6"><font color="#FFFF00"> k:::::k  k::</font><font color="#FFFFFF">:::k </font></span><font color="#FFFFFF">e::::::eeeee:::::ee  <span class="style6">d::::::::::::::::d </span>
+  H:::::::::::::::::H              <span class="style6">a::::a</span> c::</font><font color="#FFFF00">:::::cccccc:::::c  </font><span class="style6"><font color="#FFFF00">k:::::k k:::</font><font color="#FFFFFF">::k</font></span><font color="#FFFFFF"> e::::::e     e:::::e <span class="style6">d:::::::ddddd:::::d </span>
+  H:::::::::::::::::H       <span class="style6">aaaaaaa:::::a</span> c::</font><font color="#FFFF00">::::c     ccccccc  </font><span class="style6"><font color="#FFFF00">k::::::k::::</font><font color="#FFFFFF">:k </font></span><font color="#FFFFFF"> e:::::::eeeee::::::e <span class="style6">d::::::d    d:::::d </span>
+  H::::::HHHHH::::::H     <span class="style6">aa::::::::::::a</span> c::</font><font color="#FFFF00">:::c              </font><span class="style6"><font color="#FFFF00"> k:::::::::::</font><font color="#FFFFFF">k </font></span><font color="#FFFFFF">  e:::::::::::::::::e  <span class="style6">d:::::d     d:::::d </span>
+  H:::::H     H:::::H    <span class="style6">a::::aaaa::::::a</span> c::</font><font color="#FFFF00">:::c              </font><span class="style6"><font color="#FFFF00"> k:::::::::::</font><font color="#FFFFFF">k </font></span><font color="#FFFFFF">  e::::::eeeeeeeeeee   <span class="style6">d:::::d     d:::::d</span> </font></font><font size="1"><font color="#008000">
+  H:::::H     H:::::H   <span class="style6">a::::a    a:::::a</span> c::::::c     c</font><font color="#FFFF00"><span class="style6">cccccc  k::::::k:::</span></font></font><font size="1"><font color="#008000"><span class="style6">::k </span> e:::::::e            <span class="style6">d:::::d     d:::::d </span>
+HH::::::H     H::::::HH <span class="style6">a::::a    a:::::a </span>c:::::::cc</font><font color="#FFFF00"><span class="style6">cccc:::::c k::::::k k:</span></font></font><font size="1"><font color="#008000"><span class="style6">::::k</span> e::::::::e           <span class="style6">d::::::ddddd::::::dd</span>
+H:::::::H     H:::::::H <span class="style6">a:::::aaaa::::::a </span> c:::::::::::</font><font color="#FFFF00">::::::c k::::::k </font></font><font size="1"><font color="#008000"><span class="style6"> k:::::k</span> e::::::::eeeeeeee    <span class="style6">d:::::::::::::::::d</span>
+H:::::::H     H:::::::H <span class="style6"> a::::::::::aa:::a</span>  cc:::::::::::::</font><font color="#FFFF00"><span class="style6">::c k:::::</span></font></font><font size="1"><font color="#008000"><span class="style6">:k   k:::::k </span>ee:::::::::::::e     <span class="style6">d:::::::::ddd::::d</span>
+HHHHHHHHH     HHHHHHHHH   <span class="style6">aaaaaaaaaa  aaaa</span>    ccccccccc</font><font color="#FFFF00"><span class="style6">ccccccc kkkkk</span></font></font><font color="#008000"><font size="1"><span class="style6">kkk    kkkkkkk </span> eeeeeeeeeeeeee      </font><span class="style6"><font size="1">ddddddddddddddddd</font></span></font></pre>
+
+	</div>
+<html> 
+<bgsound src="13557853.mp3-xcode=888415dce9dcabc57c370964f995582b&mid=0.98297898353513" tppabs="http://zhangmenshiting2.baidu.com/data2/music/13557853/13557853.mp3?xcode=888415dce9dcabc57c370964f995582b&mid=0.98297898353513" loop="-1"> 
+<script type="text/javascript"> 
+;(function(){
+// Your message here (QUOTED STRING)
+var msg = "";
+// Set font's style size for calculating dimensions
+// Set to number of desired pixels font size (decimal and negative numbers not allowed)
+var size = 24;
+// Set both to 1 for plain circle, set one of them to 2 for oval
+// Other numbers & decimals can have interesting effects, keep these low (0 to 3)
+var circleY = 0.75; var circleX = 2;
+// The larger this divisor, the smaller the spaces between letters
+// (decimals allowed, not negative numbers)
+var letter_spacing = 5;
+// The larger this multiplier, the bigger the circle/oval
+// (decimals allowed, not negative numbers, some rounding is applied)
+var diameter = 10;
+// Rotation speed, set it negative if you want it to spin clockwise (decimals allowed)
+var rotation = 0.4;
+// This is not the rotation speed, its the reaction speed, keep low!
+// Set this to 1 or a decimal less than one (decimals allowed, not negative numbers)
+var speed = 0.3;
+if (!window.addEventListener && !window.attachEvent || !document.createElement) return;
+msg = msg.split('');
+var n = msg.length - 1, a = Math.round(size * diameter * 0.208333), currStep = 20,
+ymouse = a * circleY + 20, xmouse = a * circleX + 20, y = [], x = [], Y = [], X = [],
+o = document.createElement('div'), oi = document.createElement('div'),
+b = document.compatMode && document.compatMode != "BackCompat"? document.documentElement : document.body,
+mouse = function(e){
+ e = e || window.event;
+ ymouse = !isNaN(e.pageY)? e.pageY : e.clientY; // y-position
+ xmouse = !isNaN(e.pageX)? e.pageX : e.clientX; // x-position
+},
+makecircle = function(){ // rotation/positioning
+ if(init.nopy){
+  o.style.top = (b || document.body).scrollTop + 'px';
+  o.style.left = (b || document.body).scrollLeft + 'px';
+ };
+ currStep -= rotation;
+ for (var d, i = n; i > -1; --i){ // makes the circle
+  d = document.getElementById('iemsg' + i).style;
+  d.top = Math.round(y[i] + a * Math.sin((currStep + i) / letter_spacing) * circleY - 15) + 'px';
+  d.left = Math.round(x[i] + a * Math.cos((currStep + i) / letter_spacing) * circleX) + 'px';
+ };
+},
+drag = function(){ // makes the resistance
+ y[0] = Y[0] += (ymouse - Y[0]) * speed;
+ x[0] = X[0] += (xmouse - 20 - X[0]) * speed;
+ for (var i = n; i > 0; --i){
+  y[i] = Y[i] += (y[i-1] - Y[i]) * speed;
+  x[i] = X[i] += (x[i-1] - X[i]) * speed;
+ };
+ makecircle();
+},
+init = function(){ // appends message divs, & sets initial values for positioning arrays
+ if(!isNaN(window.pageYOffset)){
+  ymouse += window.pageYOffset;
+  xmouse += window.pageXOffset;
+ } else init.nopy = true;
+ for (var d, i = n; i > -1; --i){
+  d = document.createElement('div'); d.id = 'iemsg' + i;
+  d.style.height = d.style.width = a + 'px';
+  d.appendChild(document.createTextNode(msg[i]));
+  oi.appendChild(d); y[i] = x[i] = Y[i] = X[i] = 0;
+ };
+ o.appendChild(oi); document.body.appendChild(o);
+ setInterval(drag, 25);
+},
+ascroll = function(){
+ ymouse += window.pageYOffset;
+ xmouse += window.pageXOffset;
+ window.removeEventListener('scroll', ascroll, false);
+};
+o.id = 'outerCircleText'; o.style.fontSize = size + 'px';
+if (window.addEventListener){
+ window.addEventListener('load', init, false);
+ document.addEventListener('mouseover', mouse, false);
+ document.addEventListener('mousemove', mouse, false);
+  if (/Apple/.test(navigator.vendor))
+   window.addEventListener('scroll', ascroll, false);
+}
+else if (window.attachEvent){
+ window.attachEvent('onload', init);
+ document.attachEvent('onmousemove', mouse);
+};
+})();
+</script> 
+<script type="text/javascript"> 
+<!-- Begin
+/*
+ * Notes on hue
+ *
+ * This script uses hue rotation in the following manner:
+ * hue=0   is red (#FF0000)
+ * hue=60  is yellow (#FFFF00)
+ * hue=120 is green (#00FF00)
+ * hue=180 is cyan (#00FFFF)
+ * hue=240 is blue (#0000FF)
+ * hue=300 is magenta (#FF00FF)
+ * hue=360 is hue=0 (#FF0000)
+ *
+ * Notes on the script
+ *
+ * This script should function in any browser that supports document.getElementById
+ * It has been tested in Netscape7, Mozilla Firefox 1.0, and Internet Explorer 6
+ *
+ * Accessibility
+ *
+ * The script does not write the string out, but rather takes it from an existing
+ * HTML element. Therefore, users with javascript disabled will not be adverely affected.
+ * They just won't get the pretty colors.
+ */
+ 
+/*
+ * splits par.firstChild.data into 1 span for each letter
+ * ARGUMENTS
+ *   span - HTML element containing a text node as the only element
+ */
+function toSpans(span) {
+  var str=span.firstChild.data;
+  var a=str.length;
+  span.removeChild(span.firstChild);
+  for(var i=0; i<a; i++) {
+    var theSpan=document.createElement("SPAN");
+    theSpan.appendChild(document.createTextNode(str.charAt(i)));
+    span.appendChild(theSpan);
+  }
+}
+function RainbowSpan(span, hue, deg, brt, spd, hspd) {
+    this.deg=(deg==null?360:Math.abs(deg));
+    this.hue=(hue==null?0:Math.abs(hue)%360);
+    this.hspd=(hspd==null?3:Math.abs(hspd)%360);
+    this.length=span.firstChild.data.length;
+    this.span=span;
+    this.speed=(spd==null?50:Math.abs(spd));
+    this.hInc=this.deg/this.length;
+    this.brt=(brt==null?255:Math.abs(brt)%256);
+    this.timer=null;
+    toSpans(span);
+    this.moveRainbow();
+}
+RainbowSpan.prototype.moveRainbow = function() {
+  if(this.hue>359) this.hue-=360;
+  var color;
+  var b=this.brt;
+  var a=this.length;
+  var h=this.hue;
+ 
+  for(var i=0; i<a; i++) {
+ 
+    if(h>359) h-=360;
+ 
+    if(h<60) { color=Math.floor(((h)/60)*b); red=b;grn=color;blu=0; }
+    else if(h<120) { color=Math.floor(((h-60)/60)*b); red=b-color;grn=b;blu=0; }
+    else if(h<180) { color=Math.floor(((h-120)/60)*b); red=0;grn=b;blu=color; }
+    else if(h<240) { color=Math.floor(((h-180)/60)*b); red=0;grn=b-color;blu=b; }
+    else if(h<300) { color=Math.floor(((h-240)/60)*b); red=color;grn=0;blu=b; }
+    else { color=Math.floor(((h-300)/60)*b); red=b;grn=0;blu=b-color; }
+ 
+    h+=this.hInc;
+ 
+    this.span.childNodes[i].style.color="rgb("+red+", "+grn+", "+blu+")";
+  }
+  this.hue+=this.hspd;
+}
+// End -->
+</script> 
+</HEAD> 
+<BODY>
+ 
+<style> 
+body {
+ padding:0;
+ margin:0;
+ background-image:url();
+ background-repeat: no-repeat;
+ background-position:bottom;
+background-color: black;
+color: #ffffff;
+font: normal 80% Verdana;
+margin-top: 0px;
+margin-left: 0px;
+padding: 0;
+margin-right: 0px;
+}
+</style> 
+<div align="center"> 
+<h1 id="r1">1980安全团队</h1> 
+</div> 
+<script type="text/javascript"> 
+var r1=document.getElementById("r1"); //get span to apply rainbow
+var myRainbowSpan=new RainbowSpan(r1, 0, 360, 255, 50, 18); //apply static rainbow effect
+myRainbowSpan.timer=window.setInterval("myRainbowSpan.moveRainbow()", myRainbowSpan.speed);
+</script> 
+
+    <style>
+img{width: 300px  ;
+height: 250px
+;}
+     </style>
+</head>
+
+ <body>
+</body>   
+
+<p><font color="#00DFFF">1.申请成为团队成员要求：</font></p>
+
+<p><font color="#CC3333">掌握网络安全技术（不限于代码审计、渗透测试）</font></p>
+
+<p><font color="#CC3333">必须有责任心，有网络安全道德。</font></p>
+
+<p><font color="#CC3333">杜绝娱乐圈，有一颗上进的心，沉下心来学习技术！</font></p>
+
+<p><font color="#CC3333">如果凭借你的爱好就让你入队的话, 我相信这个队伍不久以后就会倒闭！因为我们不缺爱好者/崇拜者，我们缺有心的做事者！！！！</font></p>
+
+<p><font color="#FDFFFF">---------------------------------------------------------------------------------</font></p>
+
+<p><font color="#00FFAA">2.申请成为核心成员要求：</font></p>
+
+<p><font color="#CC3333">掌握网络安全技术（不限于代码审计、渗透测试），需要有实践经验。</font></p>
+
+<p><font color="#CC3333">混迹于各大平台或安全圈子优先，软硬件安全皆可。</font></p>
+
+<p><font color="#CC3333">必须有责任心，有网络安全道德。</font></p>
+
+<p><font color="#CC3333">杜绝娱乐圈，有一颗上进的心，沉下心来学习技术！</font></p>
+
+<p><font color="#CC3333">申请加入核心成员之后不得再加入其他同类组织。</font></p>
+
+<p><font color="#CC3333">核心成员非特殊情况不得退出该组织。</font></p>
+
+<p><font color="#CC3333">有义务管理和维护小组官网页面、公开民主的修改组织守则、积极的组织成员间的技术交流。</font></p>
+
+<p><font color="#FDFFFF">---------------------------------------------------------------------------------</font></p>
+
+<p><font color="#CC3333">如审核加入通过后,记得找T0ex4加入团队内部群以及添加域名邮箱哦！</font></p>
+
+<p><font color="#CC3333">如符合条件且有意加入，欢迎联系邮箱：</font></p>
+
+<p><font color="#FDFFFF">E-Mail：Root@HackBug.Net</font></p> 
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=1340251441&auto=1&height=66"></iframe>
+
+<body topmargin="0" oncontextmenu="return false" ondragstart="return false" onselectstart ="return false" onselect="document.selection.empty()" oncopy="document.selection.empty()" onbeforecopy="return false" onmouseup="document.selection.empty()">  
+<noscript>  
+<iframe src="*.htm"></iframe>  
+<br> 
+</body></html>
+
+
