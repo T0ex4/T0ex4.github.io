@@ -9,7 +9,7 @@ img{vertical-align: middle;max-width: 100%;}
 
 
 /*团队*/
-.team{width: 100%;height: auto;overflow: hidden;padding: 90px 0 110px;background: url(../images/team-bg.jpg) center center no-repeat;}
+.team{width: 100%;height: auto;overflow: hidden;padding: 90px 0 110px;background: url(../sjlr/images/team-bg.jpg) center center no-repeat;}
 .team h2.title{color: #FFFFFF;}
 .team p.sub-title{color: #FFFFFF;}
 .team .items{padding-top: 70px;width: 100%;height: auto;overflow: hidden;}
