@@ -1,0 +1,312 @@
+/* CSS Document */
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: "yahei";
+	color: #333;
+	background: #11171A;
+}
+img {
+	border: none;
+	vertical-align: top;
+}
+ul, li {
+	border: none;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.clear {
+	font-size: 0px;
+	clear: both;
+	line-height: 0px;
+	height: 1px;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	min-height: 1px;
+}
+h1.tit {
+	font-size: 24px;
+	text-align: center;
+}
+.header {
+	width: 100%;
+	background: rgba(0,0,0,.8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: 9999;
+}
+.header nav {
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+nav .logo {
+	width: 100px;
+}
+nav ul {
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	line-height: 100px;
+}
+nav ul li a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	position: relative;
+}
+nav ul li a:hover {
+	color: #1de9b6;
+	transition: all 0.75s;
+}
+nav ul li a::before {
+	content: "";
+	height: 2px;
+	background: #1de9b6;
+	width: 0;
+	position: absolute;
+	left: 0;
+	bottom: 28px;
+}
+nav ul li a:hover::before {
+	content: "";
+	width: 100%;
+	transition: all 0.75s;
+}
+nav ul li a::after {
+	content: "";
+	height: 2px;
+	background: #1de9b6;
+	width: 0;
+	position: absolute;
+	right: 0;
+	bottom: 32px;
+}
+nav ul li a:hover::after {
+	content: "";
+	width: 100%;
+	transition: all 0.75s;
+}
+.flash {
+	margin-top: 100px;
+}
+.content {
+	width: 1200px;
+	margin: auto;
+}
+.content .join-us {
+	margin:50px auto 30px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #263238;
+	padding: 20px;
+}
+.content .join-us .txt {
+	color: #cfd8dc;
+	text-align: center;
+	font-size: 14px;
+}
+.content .join-us .txt p {
+	color: #fff;
+	font-size: 24px;
+}
+.content .join-us a {
+	color: #11171a;
+	border: 1px solid #1de9b6;
+	background: #1de9b6;
+	display: inline-block;
+	border-radius: 5px;
+	width: 200px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+}
+.content .join-us div a:hover {
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	background: none;
+	border: 1px solid #1de9b6;
+	color: #1de9b6;
+}
+.demo {
+	background: #000;
+	height: 500px;
+}
+.bg-wt {
+	overflow: hidden;
+	background: #000;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-bottom:50px;
+}
+.bg-wt h1{text-align:center; color:#eee; padding-top:50px; font-size:50px;}
+.member {
+	width: 1200px;
+	margin: 30px auto 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.member li {
+	width: 275px;
+	height: 310px;
+	color: #fff;
+	border-radius: 5px;
+/*	background: #76d7e2bf;*/
+	color: #fff;
+	box-sizing: border-box;
+	padding: 20px;
+	font-size: 14px;
+/*	box-shadow: inset 0 1px 0 rgba(0,0,0,.2), 0 1px 0 rgba(0,0,0,.2);*/
+	transition: all 1s;
+	margin-bottom: 30px;
+	box-shadow: inset 0 1px 0 #1de9b6, 0 1px 0 #1de9b6;
+}
+.member li:hover {
+	color: #00E5FF;
+	background: rgba(22, 29, 39.75);
+	box-shadow: inset 0 8px 0 #1de9b6, 0 1px 0 #1de9b6;
+}
+.member li .pic {
+	width: 110px;
+	height: 110px;
+	margin: auto;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 2px solid #333;
+}
+.member li .pic img {
+	transition: 1.25s;
+	-webkit-transition: 1.25s;
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	width: 100%;
+	height: 100%;
+}
+.member li:hover .pic img {
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+}
+.member li .txt {
+	margin-top: 20px;
+	line-height: 160%;
+}
+.bg-wt2 {
+	background: #fff;
+	padding: 50px 0;
+	overflow: hidden;
+}
+.cooperation {
+	width: 1200px;
+	margin: auto;
+}
+.cooperation .indexmaindiv {
+	margin: 0px auto;
+	width: 1200px;
+	position: relative;
+}
+.cooperation .indexmaindiv1 div.stylesgoleft {
+	width: 21px;
+	height: 28px;
+	background: url('../images/arrowhead.png') no-repeat left top;
+	cursor: pointer;
+	position: absolute;
+	left: -30px;
+	top: 50%;
+	margin-top: -14px;
+}
+.cooperation .indexmaindiv1 div.stylesgoleft:hover {
+	width: 21px;
+	height: 28px;
+	background: url('../images/arrowhead.png') no-repeat left -28px;
+	position: absolute;
+	left: -30px;
+	top: 50%;
+	cursor: pointer;
+}
+.cooperation .indexmaindiv1 div.stylesgoright {
+	width: 21px;
+	height: 28px;
+	background: url('../images/arrowhead.png') no-repeat left -56px;
+	position: absolute;
+	right: -30px;
+	top: 50%;
+	cursor: pointer;
+	margin-top: -14px;
+}
+.cooperation .indexmaindiv1 div.stylesgoright:hover {
+	float: left;
+	width: 21px;
+	height: 28px;
+	background: url('../images/arrowhead.png') no-repeat left -84px;
+	position: absolute;
+	right: -30px;
+	top: 50%;
+	cursor: pointer;
+}
+.cooperation .maindiv1 {
+	float: left;
+	width: 1200px;
+	height: 180px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 60px;
+}
+.cooperation .maindiv1 ul {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.cooperation .maindiv1 ul li {
+	float: left;
+	width: 270px;
+	height: 180px;
+	margin-right: 40px;
+	text-align: center;
+}
+.cooperation .maindiv1 ul li img {
+	box-shadow: 3px 3px 3px #eee;
+	border-radius: 20px;
+}
+.footer {
+	background: #1C1D21;
+	padding: 20px 0;
+}
+.f-box {
+	width: 1200px;
+	margin: auto;
+	line-height: 40px;
+	text-align: center;
+	color: #868F9B;
+	font-size: 14px;
+}
+.playerdetail a{color:#666; padding-top:5px;}
+
+.swiper-container1{height:560px; position:relative; margin-top:101px;}
+.swiper-pagination1{text-align:center; position:absolute; bottom:20px; z-index:10000;}
+
+.swiper-pagination-bullet{background:#ccc;}
+.swiper-pagination-bullet-active{background:#1de9b6}
+.banner_next{background: url(../images/next.png)  no-repeat; position:absolute; right:0px; top:250px; height:45px; width:50px; z-index:1000; cursor:pointer;}
+.banner_prev{background: url(../images/prev.png) no-repeat; position:absolute; left:0px; top:250px; height:45px; width:50px;z-index:1000; cursor:pointer;}
+.swiper-pagination-bullet{height:12px; width:12px;}
