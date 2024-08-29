@@ -104,7 +104,7 @@ a.info-links {
 
 ul {
     font-family: 'Roboto', sans-serif;
-    list-style: url("../images/li-img-mobile.png")/*tpa=https://www.hackerapt.com/images/li-img-mobile.png*/;
+    list-style: url("../images/li-img-mobile.png")/*tpa=https://www.hackfuzz.com/images/li-img-mobile.png*/;
     padding: 0 10px;
 }
 
@@ -280,7 +280,7 @@ ul.nav-main {
 
 .header {
     height: 400px;
-    background-image: url("../images/header-bg-team_mobile.png")/*tpa=https://www.hackerapt.com/images/header-bg-team_mobile.png*/;
+    background-image: url("../images/header-bg-team_mobile.png")/*tpa=https://www.hackfuzz.com/images/header-bg-team_mobile.png*/;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -323,31 +323,31 @@ ul.nav-main {
 
 @keyframes slideBg {
     0% {
-        background-image: url("../images/header-bg-team_mobile.png")/*tpa=https://www.hackerapt.com/images/header-bg-team_mobile.png*/;
+        background-image: url("../images/header-bg-team_mobile.png")/*tpa=https://www.hackfuzz.com/images/header-bg-team_mobile.png*/;
         background-size: contain;
     }
     20% {
-        background-image: url("../images/header-bg-team_mobile.png")/*tpa=https://www.hackerapt.com/images/header-bg-team_mobile.png*/;
+        background-image: url("../images/header-bg-team_mobile.png")/*tpa=https://www.hackfuzz.com/images/header-bg-team_mobile.png*/;
         background-size: contain;
     }
     25% {
-        background-image: url("../images/header-bg-security_mobile.png")/*tpa=https://www.hackerapt.com/images/header-bg-security_mobile.png*/;
+        background-image: url("../images/header-bg-security_mobile.png")/*tpa=https://www.hackfuzz.com/images/header-bg-security_mobile.png*/;
         background-size: contain;
     }
     45% {
-        background-image: url("../images/header-bg-security_mobile.png")/*tpa=https://www.hackerapt.com/images/header-bg-security_mobile.png*/;
+        background-image: url("../images/header-bg-security_mobile.png")/*tpa=https://www.hackfuzz.com/images/header-bg-security_mobile.png*/;
         background-size: contain;
     }
     50% {
-        background-image: url("../images/header-bg-remote_mobile.png")/*tpa=https://www.hackerapt.com/images/header-bg-remote_mobile.png*/;
+        background-image: url("../images/header-bg-remote_mobile.png")/*tpa=https://www.hackfuzz.com/images/header-bg-remote_mobile.png*/;
         background-size: contain;
     }
     95% {
-        background-image: url("../images/header-bg-remote_mobile.png")/*tpa=https://www.hackerapt.com/images/header-bg-remote_mobile.png*/;
+        background-image: url("../images/header-bg-remote_mobile.png")/*tpa=https://www.hackfuzz.com/images/header-bg-remote_mobile.png*/;
         background-size: contain;
     }
     100% {
-        background-image: url("../images/header-bg-team_mobile.png")/*tpa=https://www.hackerapt.com/images/header-bg-team_mobile.png*/;
+        background-image: url("../images/header-bg-team_mobile.png")/*tpa=https://www.hackfuzz.com/images/header-bg-team_mobile.png*/;
         background-size: contain;
     }
 }
@@ -439,7 +439,7 @@ ul.nav-main {
     display: inline-block;
     width: 8px;
     height: 8px;
-    background: url("../images/icon-arrow.svg")/*tpa=https://www.hackerapt.com/images/icon-arrow.svg*/no-repeat center center;
+    background: url("../images/icon-arrow.svg")/*tpa=https://www.hackfuzz.com/images/icon-arrow.svg*/no-repeat center center;
     background-size: cover;
     position: absolute;
     top: 20%;
@@ -508,7 +508,7 @@ ul.nav-main {
 }
 
 #index .section-caseStudy .caseStudy-container .highlight-story .img-caseStudy-school {
-    background: url("../images/sumyuk.jpg")/*tpa=https://www.hackerapt.com/images/sumyuk.jpg*/ no-repeat center center;
+    background: url("../images/sumyuk.jpg")/*tpa=https://www.hackfuzz.com/images/sumyuk.jpg*/ no-repeat center center;
     background-size: cover;
 }
 
@@ -519,31 +519,31 @@ ul.nav-main {
 }
 
 #index .section-caseStudy .caseStudy-container .icon-education {
-    background: url("../images/icon-education.svg")/*tpa=https://www.hackerapt.com/images/icon-education.svg*/no-repeat center center;
+    background: url("../images/icon-education.svg")/*tpa=https://www.hackfuzz.com/images/icon-education.svg*/no-repeat center center;
 }
 
 #index .section-caseStudy .caseStudy-container .icon-music {
-    background: url("../images/icon-music.svg")/*tpa=https://www.hackerapt.com/images/icon-music.svg*/no-repeat center center;
+    background: url("../images/icon-music.svg")/*tpa=https://www.hackfuzz.com/images/icon-music.svg*/no-repeat center center;
 }
 
 #index .section-caseStudy .caseStudy-container .icon-launch {
-    background: url("../images/icon-launch.svg")/*tpa=https://www.hackerapt.com/images/icon-launch.svg*/no-repeat center center;
+    background: url("../images/icon-launch.svg")/*tpa=https://www.hackfuzz.com/images/icon-launch.svg*/no-repeat center center;
 }
 
 #index .section-caseStudy .caseStudy-container .icon-distance {
-    background: url("../images/icon-distance.svg")/*tpa=https://www.hackerapt.com/images/icon-distance.svg*/no-repeat center center;
+    background: url("../images/icon-distance.svg")/*tpa=https://www.hackfuzz.com/images/icon-distance.svg*/no-repeat center center;
 }
 
 #index .section-caseStudy .caseStudy-container .icon-media {
-    background: url("../images/icon-media.svg")/*tpa=https://www.hackerapt.com/images/icon-media.svg*/no-repeat center center;
+    background: url("../images/icon-media.svg")/*tpa=https://www.hackfuzz.com/images/icon-media.svg*/no-repeat center center;
 }
 
 #index .section-caseStudy .caseStudy-container .icon-retail {
-    background: url("../images/icon-retail.svg")/*tpa=https://www.hackerapt.com/images/icon-retail.svg*/no-repeat center center;
+    background: url("../images/icon-retail.svg")/*tpa=https://www.hackfuzz.com/images/icon-retail.svg*/no-repeat center center;
 }
 
 #index .section-caseStudy .caseStudy-container .icon-medicalService {
-    background: url("../images/icon-medicalService.svg")/*tpa=https://www.hackerapt.com/images/icon-medicalService.svg*/no-repeat center center;
+    background: url("../images/icon-medicalService.svg")/*tpa=https://www.hackfuzz.com/images/icon-medicalService.svg*/no-repeat center center;
 }
 
 
@@ -628,7 +628,7 @@ ul.nav-main {
     display: inline-block;
     height: 13px;
     width: 13px;
-    background: url("../images/icon-fullstory-arrow.svg")/*tpa=https://www.hackerapt.com/images/icon-fullstory-arrow.svg*/no-repeat center center;
+    background: url("../images/icon-fullstory-arrow.svg")/*tpa=https://www.hackfuzz.com/images/icon-fullstory-arrow.svg*/no-repeat center center;
     position: absolute;
     top: 5%;
     margin-left: 8px;
@@ -682,7 +682,7 @@ ul.nav-main {
     display: block;
     width: 14px;
     height: 6px;
-    background: url("../images/icon-step-arrow_mobile.svg")/*tpa=https://www.hackerapt.com/images/icon-step-arrow_mobile.svg*/no-repeat center center;
+    background: url("../images/icon-step-arrow_mobile.svg")/*tpa=https://www.hackfuzz.com/images/icon-step-arrow_mobile.svg*/no-repeat center center;
     background-size: cover;
     margin: 0 auto;
     margin-top: 12px;
@@ -690,57 +690,57 @@ ul.nav-main {
 }
 
 .content-container_solution .howWeWork .work-process-container .work-process-step .icon-step-consultation {
-    background: url("../images/icon-step-consultation.svg")/*tpa=https://www.hackerapt.com/images/icon-step-consultation.svg*/no-repeat center center;
+    background: url("../images/icon-step-consultation.svg")/*tpa=https://www.hackfuzz.com/images/icon-step-consultation.svg*/no-repeat center center;
     background-size: cover;
 }
 
 .content-container_solution .howWeWork .work-process-container .work-process-step .icon-step-integrate {
-    background: url("../images/icon-step-integrate.svg")/*tpa=https://www.hackerapt.com/images/icon-step-integrate.svg*/no-repeat center center;
+    background: url("../images/icon-step-integrate.svg")/*tpa=https://www.hackfuzz.com/images/icon-step-integrate.svg*/no-repeat center center;
     background-size: cover;
 }
 
 .content-container_solution .howWeWork .work-process-container .work-process-step .icon-step-implementation {
-    background: url("../images/icon-step-implementation.svg")/*tpa=https://www.hackerapt.com/images/icon-step-implementation.svg*/no-repeat center center;
+    background: url("../images/icon-step-implementation.svg")/*tpa=https://www.hackfuzz.com/images/icon-step-implementation.svg*/no-repeat center center;
     background-size: contain;
 }
 
 .content-container_solution .howWeWork .work-process-container .work-process-step .icon-step-training {
-    background: url("../images/icon-step-training.svg")/*tpa=https://www.hackerapt.com/images/icon-step-training.svg*/no-repeat center center;
+    background: url("../images/icon-step-training.svg")/*tpa=https://www.hackfuzz.com/images/icon-step-training.svg*/no-repeat center center;
     background-size: contain;
 }
 
 .content-container_solution .howWeWork .work-process-container .work-process-step .icon-step-support {
-    background: url("../images/icon-step-support.svg")/*tpa=https://www.hackerapt.com/images/icon-step-support.svg*/no-repeat center center;
+    background: url("../images/icon-step-support.svg")/*tpa=https://www.hackfuzz.com/images/icon-step-support.svg*/no-repeat center center;
     background-size: contain;
 }
 
 .content-container_solution .howWeWork .work-process-container .work-process-step .icon-step-siteCheck {
-    background: url("../images/icon-step-siteCheck.svg")/*tpa=https://www.hackerapt.com/images/icon-step-siteCheck.svg*/no-repeat center center;
+    background: url("../images/icon-step-siteCheck.svg")/*tpa=https://www.hackfuzz.com/images/icon-step-siteCheck.svg*/no-repeat center center;
     background-size: contain;
 }
 
 .content-container_solution .howWeWork .work-process-container .work-process-step .icon-step-review {
-    background: url("../images/icon-step-review.svg")/*tpa=https://www.hackerapt.com/images/icon-step-review.svg*/no-repeat center center;
+    background: url("../images/icon-step-review.svg")/*tpa=https://www.hackfuzz.com/images/icon-step-review.svg*/no-repeat center center;
     background-size: contain;
 }
 
 .content-container_solution .howWeWork .work-process-container .work-process-step .icon-step-scanning {
-    background: url("../images/solution-security-assessment-icon.svg")/*tpa=https://www.hackerapt.com/images/solution-security-assessment-icon.svg*/no-repeat center center;
+    background: url("../images/solution-security-assessment-icon.svg")/*tpa=https://www.hackfuzz.com/images/solution-security-assessment-icon.svg*/no-repeat center center;
     background-size: contain;
 }
 
 .content-container_solution .howWeWork .work-process-container .work-process-step .icon-step-manual {
-    background: url("../images/solution-engineering-icon.svg")/*tpa=https://www.hackerapt.com/images/solution-engineering-icon.svg*/no-repeat center center;
+    background: url("../images/solution-engineering-icon.svg")/*tpa=https://www.hackfuzz.com/images/solution-engineering-icon.svg*/no-repeat center center;
     background-size: contain;
 }
 
 .content-container_solution .howWeWork .work-process-container .work-process-step .icon-step-onsiteSupport {
-    background: url("../images/icon-step-onsiteSupport.svg")/*tpa=https://www.hackerapt.com/images/icon-step-onsiteSupport.svg*/no-repeat center center;
+    background: url("../images/icon-step-onsiteSupport.svg")/*tpa=https://www.hackfuzz.com/images/icon-step-onsiteSupport.svg*/no-repeat center center;
     background-size: contain;
 }
 
 .content-container_solution .howWeWork .work-process-container .work-process-step .icon-step-backUp {
-    background: url("../images/icon-step-backUp.svg")/*tpa=https://www.hackerapt.com/images/icon-step-backUp.svg*/no-repeat center center;
+    background: url("../images/icon-step-backUp.svg")/*tpa=https://www.hackfuzz.com/images/icon-step-backUp.svg*/no-repeat center center;
     background-size: contain;
 }
 
@@ -787,7 +787,7 @@ ul.nav-main {
 }
 
 #whoweare {
-    background: url("../images/who-we-are-bg.png")/*tpa=https://www.hackerapt.com/images/who-we-are-bg.png*/ no-repeat;
+    background: url("../images/who-we-are-bg.png")/*tpa=https://www.hackfuzz.com/images/who-we-are-bg.png*/ no-repeat;
     background-size: cover;
 }
 
@@ -877,77 +877,77 @@ hr {
 }
 
 .news-xmas {
-    background: url("../images/Merry-Christmas-and-happy-New-year-by-LeisureProjects-580x387.jpg")/*tpa=https://www.hackerapt.com/images/Merry-Christmas-and-happy-New-year-by-LeisureProjects-580x387.jpg*/ no-repeat top left;
+    background: url("../images/Merry-Christmas-and-happy-New-year-by-LeisureProjects-580x387.jpg")/*tpa=https://www.hackfuzz.com/images/Merry-Christmas-and-happy-New-year-by-LeisureProjects-580x387.jpg*/ no-repeat top left;
     background-size: contain;
     width: 100%;
     height: 300px;
 }
 
 .news-family-friendly {
-    background: url("../images/2017-18 Family Friendly_Key Art-01.png")/*tpa=https://www.hackerapt.com/images/2017-18 Family Friendly_Key Art-01.png*/ no-repeat top left;
+    background: url("../images/2017-18 Family Friendly_Key Art-01.png")/*tpa=https://www.hackfuzz.com/images/2017-18 Family Friendly_Key Art-01.png*/ no-repeat top left;
     background-size: contain;
     width: 100%;
     height: 300px;
 }
 
 .news-ultra {
-    background: url("../images/news-ultra.jpg")/*tpa=https://www.hackerapt.com/images/news-ultra.jpg*/ no-repeat top left;
+    background: url("../images/news-ultra.jpg")/*tpa=https://www.hackfuzz.com/images/news-ultra.jpg*/ no-repeat top left;
     background-size: contain;
     width: 100%;
     height: 300px;
 }
 
 .news-happy-company {
-    background: url("../images/happy-company.jpg")/*tpa=https://www.hackerapt.com/images/happy-company.jpg*/ no-repeat top left;
+    background: url("../images/happy-company.jpg")/*tpa=https://www.hackfuzz.com/images/happy-company.jpg*/ no-repeat top left;
     background-size: contain;
     width: 100%;
     height: 300px;
 }
 
 .news-cisco {
-    background: url("../images/cisco-event.jpeg")/*tpa=https://www.hackerapt.com/images/cisco-event.jpeg*/ no-repeat top left;
+    background: url("../images/cisco-event.jpeg")/*tpa=https://www.hackfuzz.com/images/cisco-event.jpeg*/ no-repeat top left;
     background-size: contain;
     width: 100%;
     height: 300px;
 }
 
 .news-juniperdinner {
-    background: url("../images/juniper-dinner.jpeg")/*tpa=https://www.hackerapt.com/images/juniper-dinner.jpeg*/ no-repeat top left;
+    background: url("../images/juniper-dinner.jpeg")/*tpa=https://www.hackfuzz.com/images/juniper-dinner.jpeg*/ no-repeat top left;
     background-size: contain;
     width: 100%;
     height: 300px;
 }
 
 .news-meraki-wifi {
-    background: url("../images/NEWSKY-news-CISCO.jpg")/*tpa=https://www.hackerapt.com/images/NEWSKY-news-CISCO.jpg*/ no-repeat top left;
+    background: url("../images/NEWSKY-news-CISCO.jpg")/*tpa=https://www.hackfuzz.com/images/NEWSKY-news-CISCO.jpg*/ no-repeat top left;
     background-size: contain;
     width: 100%;
     height: 300px;
 }
 
 .news-iot {
-    background: url("../images/NEWSKY-news-IoT.jpg")/*tpa=https://www.hackerapt.com/images/NEWSKY-news-IoT.jpg*/ no-repeat top left;
+    background: url("../images/NEWSKY-news-IoT.jpg")/*tpa=https://www.hackfuzz.com/images/NEWSKY-news-IoT.jpg*/ no-repeat top left;
     background-size: contain;
     width: 100%;
     height: 300px;
 }
 
 .news-pedder {
-    background: url("../images/wifi-event-pedder.png")/*tpa=https://www.hackerapt.com/images/wifi-event-pedder.png*/ no-repeat top left;
+    background: url("../images/wifi-event-pedder.png")/*tpa=https://www.hackfuzz.com/images/wifi-event-pedder.png*/ no-repeat top left;
     background-size: contain;
     width: 100%;
     height: 300px;
 }
 
 .news-homeOffice {
-    background: url("../images/news-homeOffice.jpg")/*tpa=https://www.hackerapt.com/images/news-homeOffice.jpg*/ no-repeat top left;
+    background: url("../images/news-homeOffice.jpg")/*tpa=https://www.hackfuzz.com/images/news-homeOffice.jpg*/ no-repeat top left;
     background-size: contain;
     width: 100%;
     height: 300px;
 }
 
 .news-goodEmployer {
-    background: url("../images/news-goodEmployer.jpg")/*tpa=https://www.hackerapt.com/images/news-goodEmployer.jpg*/ no-repeat top left;
+    background: url("../images/news-goodEmployer.jpg")/*tpa=https://www.hackfuzz.com/images/news-goodEmployer.jpg*/ no-repeat top left;
     background-size: contain;
     width: 100%;
     height: 300px;
@@ -1007,7 +1007,7 @@ hr {
     width: 71px;
     height: 20px;
     display: block;
-    background: url("../images/logo-newsky.png")/*tpa=https://www.hackerapt.com/images/logo-newsky.png*/ no-repeat center center;
+    background: url("../images/logo-newsky.png")/*tpa=https://www.hackfuzz.com/images/logo-newsky.png*/ no-repeat center center;
     background-size: contain;
     padding-top: 40px;
     z-index: 10;
@@ -1019,7 +1019,7 @@ hr {
     right: 30px;
     margin: 9px;
     display: block;
-    background: url("../images/linkedin-icon.png")/*tpa=https://www.hackerapt.com/images/linkedin-icon.png*/ no-repeat;
+    background: url("../images/linkedin-icon.png")/*tpa=https://www.hackfuzz.com/images/linkedin-icon.png*/ no-repeat;
     background-size: contain;
     width: 16px;
     height: 16px;
@@ -1179,37 +1179,37 @@ h3.whatwedid-relatedSolution {
 }
 
 .icon-security {
-    background: url("../images/solution-security-icon.svg")/*tpa=https://www.hackerapt.com/images/solution-security-icon.svg*/ no-repeat center center;
+    background: url("../images/solution-security-icon.svg")/*tpa=https://www.hackfuzz.com/images/solution-security-icon.svg*/ no-repeat center center;
     background-size: contain
 }
 
 .icon-infrastructure {
-    background: url("../images/solution-infrastructure-icon.svg")/*tpa=https://www.hackerapt.com/images/solution-infrastructure-icon.svg*/ no-repeat center center;
+    background: url("../images/solution-infrastructure-icon.svg")/*tpa=https://www.hackfuzz.com/images/solution-infrastructure-icon.svg*/ no-repeat center center;
     background-size: contain
 }
 
 .icon-wifi {
-    background: url("../images/solution-wifi-icon.svg")/*tpa=https://www.hackerapt.com/images/solution-wifi-icon.svg*/ no-repeat center center;
+    background: url("../images/solution-wifi-icon.svg")/*tpa=https://www.hackfuzz.com/images/solution-wifi-icon.svg*/ no-repeat center center;
     background-size: contain
 }
 
 .icon-engineering {
-    background: url("../images/solution-engineering-icon.svg")/*tpa=https://www.hackerapt.com/images/solution-engineering-icon.svg*/ no-repeat center center;
+    background: url("../images/solution-engineering-icon.svg")/*tpa=https://www.hackfuzz.com/images/solution-engineering-icon.svg*/ no-repeat center center;
     background-size: contain
 }
 
 .icon-assessment {
-    background: url("../images/solution-security-assessment-icon.svg")/*tpa=https://www.hackerapt.com/images/solution-security-assessment-icon.svg*/ no-repeat center center;
+    background: url("../images/solution-security-assessment-icon.svg")/*tpa=https://www.hackfuzz.com/images/solution-security-assessment-icon.svg*/ no-repeat center center;
     background-size: contain
 }
 
 .icon-incident-response {
-    background: url("../images/solution-incident-response-icon.svg")/*tpa=https://www.hackerapt.com/images/solution-incident-response-icon.svg*/ no-repeat center center;
+    background: url("../images/solution-incident-response-icon.svg")/*tpa=https://www.hackfuzz.com/images/solution-incident-response-icon.svg*/ no-repeat center center;
     background-size: contain
 }
 
 .icon-remoteSolution {
-    background: url("../images/solution-remote-icon.svg")/*tpa=https://www.hackerapt.com/images/solution-remote-icon.svg*/ no-repeat center center;
+    background: url("../images/solution-remote-icon.svg")/*tpa=https://www.hackfuzz.com/images/solution-remote-icon.svg*/ no-repeat center center;
     background-size: contain
 }
 
@@ -1227,12 +1227,12 @@ h3.whatwedid-relatedSolution {
 }
 
 .selectSegment-icon-education {
-    background: url("../images/icon-education.svg")/*tpa=https://www.hackerapt.com/images/icon-education.svg*/ no-repeat center center;
+    background: url("../images/icon-education.svg")/*tpa=https://www.hackfuzz.com/images/icon-education.svg*/ no-repeat center center;
     background-size: contain;
 }
 
 .selectSegment-icon-enterprise {
-    background: url("../images/icon-enterprise.svg")/*tpa=https://www.hackerapt.com/images/icon-enterprise.svg*/ no-repeat center center;
+    background: url("../images/icon-enterprise.svg")/*tpa=https://www.hackfuzz.com/images/icon-enterprise.svg*/ no-repeat center center;
     background-size: contain;
 }
 
@@ -1290,7 +1290,7 @@ h3.whatwedid-relatedSolution {
     display: inline-block;
     width: 14px;
     height: 9px;
-    background: url("../images/icon-tick_blue.svg")/*tpa=https://www.hackerapt.com/images/icon-tick_blue.svg*/no-repeat center center;
+    background: url("../images/icon-tick_blue.svg")/*tpa=https://www.hackfuzz.com/images/icon-tick_blue.svg*/no-repeat center center;
 }
 
 .selectSegment-education ul li ul li,
@@ -1350,31 +1350,31 @@ h3.whatwedid-relatedSolution {
 }
 
 .product-logo-juniper {
-    background: url("../images/logo-juniper-w.png")/*tpa=https://www.hackerapt.com/images/logo-juniper-w.png*/ no-repeat center center;
+    background: url("../images/logo-juniper-w.png")/*tpa=https://www.hackfuzz.com/images/logo-juniper-w.png*/ no-repeat center center;
     background-size: contain;
     display: inline-block;
 }
 
 .product-logo-meraki {
-    background: url("../images/meraki-hori.png")/*tpa=https://www.hackerapt.com/images/meraki-hori.png*/ no-repeat center center;
+    background: url("../images/meraki-hori.png")/*tpa=https://www.hackfuzz.com/images/meraki-hori.png*/ no-repeat center center;
     background-size: contain;
     display: inline-block;
 }
 
 .product-logo-fortinet {
-    background: url("../images/logo-fortinet-w.png")/*tpa=https://www.hackerapt.com/images/logo-fortinet-w.png*/ no-repeat center center;
+    background: url("../images/logo-fortinet-w.png")/*tpa=https://www.hackfuzz.com/images/logo-fortinet-w.png*/ no-repeat center center;
     background-size: contain;
     display: inline-block;
 }
 
 .product-logo-sophos {
-    background: url("../images/logo-sophos.png")/*tpa=https://www.hackerapt.com/images/logo-sophos.png*/ no-repeat center center;
+    background: url("../images/logo-sophos.png")/*tpa=https://www.hackfuzz.com/images/logo-sophos.png*/ no-repeat center center;
     background-size: contain;
     display: inline-block;
 }
 
 .product-logo-ciscoWebex {
-    background: url("../images/logo-ciscoWebex.png")/*tpa=https://www.hackerapt.com/images/logo-ciscoWebex.png*/ no-repeat center center;
+    background: url("../images/logo-ciscoWebex.png")/*tpa=https://www.hackfuzz.com/images/logo-ciscoWebex.png*/ no-repeat center center;
     background-size: contain;
     display: inline-block;
 }
@@ -1500,7 +1500,7 @@ a.case-full::after {
     display: inline-block;
     height: 13px;
     width: 13px;
-    background: url("../images/icon-fullstory-arrow.svg")/*tpa=https://www.hackerapt.com/images/icon-fullstory-arrow.svg*/no-repeat center center;
+    background: url("../images/icon-fullstory-arrow.svg")/*tpa=https://www.hackfuzz.com/images/icon-fullstory-arrow.svg*/no-repeat center center;
     position: absolute;
     top: 5%;
     margin-left: 8px;
@@ -1513,37 +1513,37 @@ a.case-full::after {
 }
 
 .case-container .img-caseStudy-school {
-    background: url("../images/sumyuk.jpg")/*tpa=https://www.hackerapt.com/images/sumyuk.jpg*/ no-repeat center center;
+    background: url("../images/sumyuk.jpg")/*tpa=https://www.hackfuzz.com/images/sumyuk.jpg*/ no-repeat center center;
     background-size: cover;
 }
 
 .case-container .img-caseStudy-musicFes {
-    background: url("../images/road-to-ultra-2.jpg")/*tpa=https://www.hackerapt.com/images/road-to-ultra-2.jpg*/ no-repeat center top;
+    background: url("../images/road-to-ultra-2.jpg")/*tpa=https://www.hackfuzz.com/images/road-to-ultra-2.jpg*/ no-repeat center top;
     background-size: cover;
 }
 
 .case-container .img-caseStudy-bankLaunch {
-    background: url("../images/dbs-launch.JPG")/*tpa=https://www.hackerapt.com/images/dbs-launch.JPG*/ no-repeat center center;
+    background: url("../images/dbs-launch.JPG")/*tpa=https://www.hackfuzz.com/images/dbs-launch.JPG*/ no-repeat center center;
     background-size: cover;
 }
 
 .case-container .img-caseStudy-shortenDistance {
-    background: url("../images/richchinatn-236x210.png")/*tpa=https://www.hackerapt.com/images/richchinatn-236x210.png*/ no-repeat center center;
+    background: url("../images/richchinatn-236x210.png")/*tpa=https://www.hackfuzz.com/images/richchinatn-236x210.png*/ no-repeat center center;
     background-size: cover;
 }
 
 .case-container .img-caseStudy-commercialRadio {
-    background: url("../images/radio.png")/*tpa=https://www.hackerapt.com/images/radio.png*/ no-repeat center top;
+    background: url("../images/radio.png")/*tpa=https://www.hackfuzz.com/images/radio.png*/ no-repeat center top;
     background-size: cover;
 }
 
 .case-container .img-caseStudy-cosmetic {
-    background: url("../images/cosmetic.png")/*tpa=https://www.hackerapt.com/images/cosmetic.png*/ no-repeat center center;
+    background: url("../images/cosmetic.png")/*tpa=https://www.hackfuzz.com/images/cosmetic.png*/ no-repeat center center;
     background-size: cover;
 }
 
 .case-container .img-caseStudy-onyx {
-    background: url("../images/onyx.png")/*tpa=https://www.hackerapt.com/images/onyx.png*/ no-repeat center center;
+    background: url("../images/onyx.png")/*tpa=https://www.hackfuzz.com/images/onyx.png*/ no-repeat center center;
     background-size: cover;
 }
 
@@ -1564,31 +1564,31 @@ a.case-full::after {
 }
 
 .text-container .icon-education {
-    background: url("../images/icon-education.svg")/*tpa=https://www.hackerapt.com/images/icon-education.svg*/no-repeat center center;
+    background: url("../images/icon-education.svg")/*tpa=https://www.hackfuzz.com/images/icon-education.svg*/no-repeat center center;
 }
 
 .text-container .icon-music {
-    background: url("../images/icon-music.svg")/*tpa=https://www.hackerapt.com/images/icon-music.svg*/no-repeat center center;
+    background: url("../images/icon-music.svg")/*tpa=https://www.hackfuzz.com/images/icon-music.svg*/no-repeat center center;
 }
 
 .text-container .icon-launch {
-    background: url("../images/icon-launch.svg")/*tpa=https://www.hackerapt.com/images/icon-launch.svg*/no-repeat center center;
+    background: url("../images/icon-launch.svg")/*tpa=https://www.hackfuzz.com/images/icon-launch.svg*/no-repeat center center;
 }
 
 .text-container .icon-distance {
-    background: url("../images/icon-distance.svg")/*tpa=https://www.hackerapt.com/images/icon-distance.svg*/no-repeat center center;
+    background: url("../images/icon-distance.svg")/*tpa=https://www.hackfuzz.com/images/icon-distance.svg*/no-repeat center center;
 }
 
 .text-container .icon-media {
-    background: url("../images/icon-media.svg")/*tpa=https://www.hackerapt.com/images/icon-media.svg*/no-repeat center center;
+    background: url("../images/icon-media.svg")/*tpa=https://www.hackfuzz.com/images/icon-media.svg*/no-repeat center center;
 }
 
 .text-container .icon-retail {
-    background: url("../images/icon-retail.svg")/*tpa=https://www.hackerapt.com/images/icon-retail.svg*/no-repeat center center;
+    background: url("../images/icon-retail.svg")/*tpa=https://www.hackfuzz.com/images/icon-retail.svg*/no-repeat center center;
 }
 
 .text-container .icon-medicalService {
-    background: url("../images/icon-medicalService.svg")/*tpa=https://www.hackerapt.com/images/icon-medicalService.svg*/no-repeat center center;
+    background: url("../images/icon-medicalService.svg")/*tpa=https://www.hackfuzz.com/images/icon-medicalService.svg*/no-repeat center center;
 }
 
 .whatwedid-relatedProduct {
@@ -1602,19 +1602,19 @@ a.case-full::after {
 }
 
 .relatedProduct-sophos {
-    background: url("../images/logo-sophos.png")/*tpa=https://www.hackerapt.com/images/logo-sophos.png*/ no-repeat center center;
+    background: url("../images/logo-sophos.png")/*tpa=https://www.hackfuzz.com/images/logo-sophos.png*/ no-repeat center center;
     background-size: contain;
     display: inline-block;
 }
 
 .relatedProduct-fortinet {
-    background: url("../images/logo-fortinet.png")/*tpa=https://www.hackerapt.com/images/logo-fortinet.png*/ no-repeat center center;
+    background: url("../images/logo-fortinet.png")/*tpa=https://www.hackfuzz.com/images/logo-fortinet.png*/ no-repeat center center;
     background-size: contain;
     display: inline-block;
 }
 
 .relatedProduct-meraki {
-    background: url("../images/meraki-hori.png")/*tpa=https://www.hackerapt.com/images/meraki-hori.png*/ no-repeat center center;
+    background: url("../images/meraki-hori.png")/*tpa=https://www.hackfuzz.com/images/meraki-hori.png*/ no-repeat center center;
     background-size: contain;
     display: inline-block;
 }
@@ -1629,37 +1629,37 @@ a.case-full::after {
 }
 
 .case-img-radio {
-    background: url("../images/radio.png")/*tpa=https://www.hackerapt.com/images/radio.png*/ no-repeat center center;
+    background: url("../images/radio.png")/*tpa=https://www.hackfuzz.com/images/radio.png*/ no-repeat center center;
     background-size: cover;
 }
 
 .case-img-ultra {
-    background: url("../images/road-to-ultra-2.jpg")/*tpa=https://www.hackerapt.com/images/road-to-ultra-2.jpg*/ no-repeat center center;
+    background: url("../images/road-to-ultra-2.jpg")/*tpa=https://www.hackfuzz.com/images/road-to-ultra-2.jpg*/ no-repeat center center;
     background-size: cover;
 }
 
 .case-img-launch {
-    background: url("../images/dbs-launch.JPG")/*tpa=https://www.hackerapt.com/images/dbs-launch.JPG*/ no-repeat center center;
+    background: url("../images/dbs-launch.JPG")/*tpa=https://www.hackfuzz.com/images/dbs-launch.JPG*/ no-repeat center center;
     background-size: cover;
 }
 
 .case-img-richchina {
-    background: url("../images/richchinatn-236x210.png")/*tpa=https://www.hackerapt.com/images/richchinatn-236x210.png*/ no-repeat center center;
+    background: url("../images/richchinatn-236x210.png")/*tpa=https://www.hackfuzz.com/images/richchinatn-236x210.png*/ no-repeat center center;
     background-size: cover;
 }
 
 .case-img-sumyuk {
-    background: url("../images/sumyuk.jpg")/*tpa=https://www.hackerapt.com/images/sumyuk.jpg*/ no-repeat center center;
+    background: url("../images/sumyuk.jpg")/*tpa=https://www.hackfuzz.com/images/sumyuk.jpg*/ no-repeat center center;
     background-size: cover;
 }
 
 .case-img-cosmetic {
-    background: url("../images/cosmetic.png")/*tpa=https://www.hackerapt.com/images/cosmetic.png*/ no-repeat center center;
+    background: url("../images/cosmetic.png")/*tpa=https://www.hackfuzz.com/images/cosmetic.png*/ no-repeat center center;
     background-size: cover;
 }
 
 .case-img-medicalService {
-    background: url("../images/onyx.png")/*tpa=https://www.hackerapt.com/images/onyx.png*/ no-repeat center center;
+    background: url("../images/onyx.png")/*tpa=https://www.hackfuzz.com/images/onyx.png*/ no-repeat center center;
     background-size: cover;
 }
 
@@ -1773,7 +1773,7 @@ a.case-full::after {
 .campaign-banner ul li::before {
     content: "";
     display: inline-block;
-    background: url("../images/icon-tick.svg")/*tpa=https://www.hackerapt.com/images/icon-tick.svg*/no-repeat center center;
+    background: url("../images/icon-tick.svg")/*tpa=https://www.hackfuzz.com/images/icon-tick.svg*/no-repeat center center;
     background-size: contain;
     width: 10px;
     height: 7px;
@@ -1795,7 +1795,7 @@ a.case-full::after {
 
 .campaign-banner-graphic {
     display: block;
-    background: url("../images/campaign-banner-graphic.svg")/*tpa=https://www.hackerapt.com/images/campaign-banner-graphic.svg*/no-repeat center center;
+    background: url("../images/campaign-banner-graphic.svg")/*tpa=https://www.hackfuzz.com/images/campaign-banner-graphic.svg*/no-repeat center center;
     background-size: contain;
     width: 162px;
     height: 111px;
@@ -1934,7 +1934,7 @@ a.case-full::after {
     .header {
         height: 550px;
         width: 100%;
-        background-image: url("../images/header-bg-team.png")/*tpa=https://www.hackerapt.com/images/header-bg-team.png*/;
+        background-image: url("../images/header-bg-team.png")/*tpa=https://www.hackfuzz.com/images/header-bg-team.png*/;
         background-size: cover;
         margin: unset;
         margin-bottom: 40px;
@@ -1954,25 +1954,25 @@ a.case-full::after {
     }
     @keyframes slideBg {
         0% {
-            background-image: url("../images/header-bg-team.png")/*tpa=https://www.hackerapt.com/images/header-bg-team.png*/;
+            background-image: url("../images/header-bg-team.png")/*tpa=https://www.hackfuzz.com/images/header-bg-team.png*/;
         }
         20% {
-            background-image: url("../images/header-bg-team.png")/*tpa=https://www.hackerapt.com/images/header-bg-team.png*/;
+            background-image: url("../images/header-bg-team.png")/*tpa=https://www.hackfuzz.com/images/header-bg-team.png*/;
         }
         25% {
-            background-image: url("../images/header-bg-security.png")/*tpa=https://www.hackerapt.com/images/header-bg-security.png*/;
+            background-image: url("../images/header-bg-security.png")/*tpa=https://www.hackfuzz.com/images/header-bg-security.png*/;
         }
         45% {
-            background-image: url("../images/header-bg-security.png")/*tpa=https://www.hackerapt.com/images/header-bg-security.png*/;
+            background-image: url("../images/header-bg-security.png")/*tpa=https://www.hackfuzz.com/images/header-bg-security.png*/;
         }
         50% {
-            background-image: url("../images/header-bg-remote.png")/*tpa=https://www.hackerapt.com/images/header-bg-remote.png*/;
+            background-image: url("../images/header-bg-remote.png")/*tpa=https://www.hackfuzz.com/images/header-bg-remote.png*/;
         }
         95% {
-            background-image: url("../images/header-bg-remote.png")/*tpa=https://www.hackerapt.com/images/header-bg-remote.png*/;
+            background-image: url("../images/header-bg-remote.png")/*tpa=https://www.hackfuzz.com/images/header-bg-remote.png*/;
         }
         100% {
-            background-image: url("../images/header-bg-team.png")/*tpa=https://www.hackerapt.com/images/header-bg-team.png*/;
+            background-image: url("../images/header-bg-team.png")/*tpa=https://www.hackfuzz.com/images/header-bg-team.png*/;
         }
     }
     .section-solution,
@@ -2193,7 +2193,7 @@ a.case-full::after {
         display: block;
         width: 20px;
         height: 15px;
-        background: url("../images/icon-step-arrow.svg")/*tpa=https://www.hackerapt.com/images/icon-step-arrow.svg*/no-repeat center center;
+        background: url("../images/icon-step-arrow.svg")/*tpa=https://www.hackfuzz.com/images/icon-step-arrow.svg*/no-repeat center center;
         background-size: cover;
         margin: auto 0;
         margin-right: 12px;
@@ -2488,7 +2488,7 @@ a.case-full::after {
     .campaign-banner ul li::before {
         content: "";
         display: inline-block;
-        background: url("../images/icon-tick.svg")/*tpa=https://www.hackerapt.com/images/icon-tick.svg*/no-repeat center center;
+        background: url("../images/icon-tick.svg")/*tpa=https://www.hackfuzz.com/images/icon-tick.svg*/no-repeat center center;
         background-size: contain;
         width: 14px;
         height: 12px;
